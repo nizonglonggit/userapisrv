@@ -1,0 +1,9 @@
+listen = ":9515"
+
+[dbservers]
+    [dbservers.example]
+        host = "81.68.107.248"
+        port = 5431
+        dbname = "example"
+        user = "test"
+        password = "123456"
