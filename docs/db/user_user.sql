@@ -11,7 +11,7 @@ create table user_user (
     introduction text,
     description text,
     status int not null default 0, -- 0未激活，1正常，2封禁
-    CreatedAt int,
-    DeletedAt int,
-    UpdatedAt int
+    Created_At timestamp ,
+    Deleted_At timestamp,
+    Updated_At timestamp
 )
